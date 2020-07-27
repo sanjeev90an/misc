@@ -12,7 +12,5 @@ ulimit -n 2048
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 PATH="$HOME/bin:$PATH"
 export PATH
-source '/Users/sanjeevkumar/src/awsaccess/awsaccess2.sh' # awsaccess
-source '/Users/sanjeevkumar/src/awsaccess/oktaawsaccess.sh' # oktaawsaccess
 export PS1="\$(ps1_mfa_context)$PS1" # awsaccess
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
